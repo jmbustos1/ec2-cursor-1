@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+
+  golang-tcp-server:
+    build:
+      context: .  # Ajusta esto al directorio donde tengas el Dockerfile del servidor
+      dockerfile: Dockerfile
+    image: cursor-golang
+    container_name: cursor-golang-container
+    volumes:
+      - .:/app
+    ports:
+      - "8100:8080"  # Mapea el puerto para acceso externo
+    extra_hosts:
+      - "ollama-host:host-gateway"
+    restart: unless-stopped
+    tty: true

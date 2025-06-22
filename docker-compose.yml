@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+
+  golang-tcp-server:
+
+    container_name: cursor-golang-container
+    ports:
+      - "8100:8080"
+    extra_hosts:
+      - "ollama-host:host-gateway"
+    restart: unless-stopped
+    tty: true
