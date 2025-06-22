@@ -11,6 +11,13 @@ This project allows you to offload the execution of LLM prompts to a **remote ma
 **Trade-off:** Your GPU remote machine must stay online, but the cost is usually much lower than cloud alternatives.
 
 ---
+## 🎯 Learning Objectives
+
+- Understand and apply **SSH tunneling** as a powerful technique for IoT scenarios and remote development workflows.
+- Gain hands-on experience with **Ollama**, a lightweight tool to integrate and run LLMs in Linux environments.
+- Perform **hardware benchmarking** by evaluating the performance of different LLM models and prompt executions on remote GPUs.
+
+---
 
 ## 🏗️ Architecture
 
