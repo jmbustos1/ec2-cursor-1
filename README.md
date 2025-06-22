@@ -1,5 +1,3 @@
-# Readme.
-
 # Remote LLM Execution Gateway
 
 This project allows you to offload the execution of LLM prompts to a **remote machine with an integrated GPU**, eliminating the need for GPU power or disk space on your local working machine. The key idea is to install any LLM model (via [Ollama](https://ollama.com/)) on a remote GPU-enabled host and tunnel access to it through a lightweight EC2 instance.
@@ -16,7 +14,7 @@ This project allows you to offload the execution of LLM prompts to a **remote ma
 
 ## 🏗️ Architecture
 
-![Screenshot from 2025-06-22 02-27-42.png](Readme%2021aa4cba1bcb80608c89c191c053b14e/Screenshot_from_2025-06-22_02-27-42.png)
+![Architecture Diagram](assets/Screenshot_from_2025-06-22_02-27-42.png)
 
 ---
 
