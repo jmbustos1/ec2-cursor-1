@@ -1,0 +1,10 @@
+# Ignorar la carpeta de imágenes
+assets/
+
+# Otros ejemplos comunes que puedes ignorar
+.git
+.gitignore
+README.md
+node_modules/
+*.log
+*.md
